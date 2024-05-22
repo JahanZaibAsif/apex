@@ -2859,6 +2859,7 @@ table.order-details tbody td {
 /* contact us form */
 .contact_us input{
   background-color: #07212e;
+  color: #fff;
 }
 .contact_us textarea{
   background-color: #07212e;
