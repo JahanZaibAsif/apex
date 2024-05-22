@@ -39,6 +39,7 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  color: #ffff;
 }
 
 a:hover {
@@ -143,6 +144,30 @@ h6, .h6 {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.5rem;
+}
+.apply_now a{
+  border: 1px solid #F28123;
+}
+.apply_now a:hover{
+  background-color: #000;
+  color:#ffff;
+}
+
+.become p{
+  font-size: 1.25rem;
+  color: #ffff;
+  font-weight: 600;
+}
+.become a{
+  border: 2px solid white;
+  padding-left:30px;
+  text-align: center;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.become a:hover{
+  background-color: #000;
 }
 
 p {
@@ -558,7 +583,6 @@ nav.main-menu ul li {
 
 nav.main-menu ul li a {
   color: #fff;
-  font-weight: 700;
   display: block;
   padding: 15px;
 }
@@ -612,7 +636,7 @@ nav.main-menu > ul li:last-child {
 
 .site-logo {
   float: left;
-  max-width: 150px;
+  max-width: 140px;
 }
 
 ul.sub-menu li:last-child {
@@ -685,7 +709,7 @@ nav.main-menu ul ul.sub-menu li {
 
 nav.main-menu ul ul.sub-menu li a {
   color: #555;
-  padding: 8px;
+  padding: 4px;
   font-size: 13px;
   font-weight: 600;
 }
@@ -1410,7 +1434,7 @@ html, body {
   align-items: flex-end;
   font-size: 64px;
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.1;
   color: #fff;
 }
 
@@ -2121,7 +2145,7 @@ a.video-play-btn {
 .shop-banner {
   position: relative;
   background-color: #f5f5f5;
-  background-image: url(../img/1.jpg);
+  background-image: url(../img/Image/b3.jpg);
   background-size: cover;
   padding: 110px 0px 115px;
 }
@@ -2784,7 +2808,7 @@ table.order-details tbody td {
 }
 
 .image2-wrapper img {
-  border: 10px solid white;
+  border: 20px solid white;
 }
 
 .text-light {
@@ -2793,7 +2817,7 @@ table.order-details tbody td {
 }
 
 .row.bg-dark {
-  padding: 40px 0; /* Adjust padding to give some spacing */
+  padding: 0px 0; /* Adjust padding to give some spacing */
 }
 
 /* Who work with us section  */
@@ -2804,10 +2828,7 @@ table.order-details tbody td {
         .work_us {
           margin-top: 50px;
           margin-bottom: 50px;
-          background-color: #012738;
-          background: rgba(0, 0, 0, 0.7);
-          padding: 20px;
-          border-radius: 10px;
+          padding: 30px;
           color: #fff;
       }
       
@@ -2821,7 +2842,7 @@ table.order-details tbody td {
             width: 100%;
             margin-bottom: 10px;
             color: #fff;
-            border: 1px solid #fff;
+            border: 2px solid #fff;
         }
         .btn-custom:hover {
             background: #fff;
@@ -2829,8 +2850,17 @@ table.order-details tbody td {
         }
         .info-box {
             padding: 20px;
-            border: 1px solid #fff;
+            border: 2px solid #fff;
             border-radius: 5px;
             background: rgba(0, 0, 0, 0.8);
         }
 /* Work with us end */
+
+/* contact us form */
+.contact_us input{
+  background-color: #07212e;
+}
+.contact_us textarea{
+  background-color: #07212e;
+}
+/* end contact us form */
