@@ -145,12 +145,20 @@ h6, .h6 {
   font-weight: 700;
   line-height: 1.5rem;
 }
-.apply_now a{
-  border: 1px solid #F28123;
+.apply_now{
+  margin-top: 07px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 2px;
+  padding-bottom: px;
+  text-align: center;
+  border: 1px solid #e8e4e1;
+
 }
-.apply_now a:hover{
-  background-color: #000;
-  color:#ffff;
+
+.apply_now:hover{
+  background-color: #ffff;
+  color:#F28123;
 }
 
 .become p{
@@ -158,17 +166,11 @@ h6, .h6 {
   color: #ffff;
   font-weight: 600;
 }
-.become a{
-  border: 2px solid white;
-  padding-left:30px;
-  text-align: center;
-  padding-right: 30px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+.tag a{
+  margin-top: 1000px;
+  
 }
-.become a:hover{
-  background-color: #000;
-}
+
 
 p {
   font-family: "Open Sans", sans-serif;
@@ -889,7 +891,6 @@ a.mobile-show {
 .footer-area {
   background-color: #051922;
   color: #fff;
-  padding: 150px 0;
 }
 
 h2.widget-title {
@@ -904,7 +905,7 @@ h2.widget-title:after {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 20px;
+  width: 10px;
   height: 2px;
   background-color: #F28123;
   content: "";
@@ -1403,7 +1404,6 @@ a.mobile-show.search-bar-icon:hover {
 
 .hero-area {
   height: 100%;
-  position: relative;
   z-index: 1;
 }
 
@@ -1422,13 +1422,7 @@ html, body {
   opacity: 0.6;
 }
 
-.hero-text p.subtitle {
-  color: #F28123;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 7px;
-  font-size: 15px;
-}
+
 
 .hero-text h1 {
   align-items: flex-end;

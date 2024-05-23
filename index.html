@@ -64,6 +64,25 @@
     display: table;
     color: #ff5e00;
   }
+  .apply-button {
+            display: inline-block;
+            margin-top: 50px;
+            padding: 10px 50px;
+            font-size: 16px;
+            color: white;
+            border: 2px solid white;
+            background: transparent;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .apply-button:hover {
+            background-color: white;
+            color: black;
+        }
+        .left-align {
+            text-align: left;
+        }
 </style>
 
 <body>
@@ -98,6 +117,7 @@
                 <li><a href="testimonials.html">Testimonials</a></li>
                 <li><a href="privacy_policy.html">Privacy Policy</a></li>
                 <li><a href="contact_us.html">Contact Us</a></li>
+                
                 <li class="apply_now">
                   <a href="contact_us.html">Apply Now</a>
                 </li>
@@ -141,9 +161,13 @@
               <div class="become">
                 <p>Become a part of our team today and experience a
                   company <br> that prioritizes your well-being</p>
-
-                <a href="contact_us.html">Apply Now</a>
+                  <div class="container">
+                    <div class="left-align">
+                        <a href="#" class="apply-button">Apply Now</a>
+                    </div>
+                </div>
               </div>
+              
             </div>
           </div>
         </div>
@@ -184,50 +208,7 @@
 
     </div>
   </div>
-  <!-- End Counter -->
-  <!-- <div class="list-section pt-80 pb-80">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-              <div class="list-box d-flex align-items-center">
-                <div class="list-icon"></div>
-                <div class="content">
-                  <h3>16000+</h3>
-                  <p>Load Block</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-              <div class="list-box d-flex align-items-center">
-                <div class="list-icon"></div>
-                <div class="content">
-                  <h3>8,000$</h3>
-                  <p>Weekly Gross</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="list-box d-flex justify-content-start align-items-center">
-                <div class="list-icon"></div>
-                <div class="content">
-                  <h3>$3.0</h3>
-                  <p>Per Mile</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-              <div class="list-box d-flex align-items-center">
-                <div class="list-icon"></div>
-                <div class="content">
-                  <h3>246+</h3>
-                  <p>Statisifed Drivers</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-  <!-- end features list section -->
+  
 
   <div class="container-fluid">
     <div class="row">
@@ -235,7 +216,7 @@
       <div class="col-sm-5 mt-5">
         <img class="" height="400px" width="400px" src="assets/img/Image/b9.png" alt="" />
       </div>
-      <div class="col-sm-5 mt-5">
+      <div class="col-sm-5 mt-2">
 
         <p class="text-light">
         <h3 class="">About Us</h3>
@@ -260,7 +241,7 @@
   </div>
 
   <div>
-    <div class="container work_us ">
+    <div class="container-fluid work_us ">
       <h3 class="text-center text-light">Who Can Work With Us?</h3>
       <div class="row  border border-2 p-lg-5">
         <div class="col-md-4">
@@ -335,13 +316,13 @@
     <div class="row">
       <div class="col-sm-1"></div>
       <div class="col-sm-5 mt-5">
-        <img class="border w-100 border-2 border-light rounded-2" height="75%" src="assets/img/image/b4.jpg" alt="" />
+        <img class="border border-2 border-light rounded-5" height="75%" width="90%" src="assets/img/image/b4.jpg" alt="" />
       </div>
       <div class="col-sm-6 mt-4">
-        <p class="text-light">
+        <h5 class="text-light">
           TRUCK DISPATCH SERVICES:HAVE A DEDICATED TRUCK DISPATCHER MANAGE THE
           WORK LOAD SO YOU CAN STAY FOCUSED ON THE ROAD AHEAD.
-        </p>
+        </h5>
         <p class="text-light mt-2">
           Welcome to Apex Truckers, where we understand the unique hurdles that
           small carriers face in the transportation industry. Our personalized
@@ -390,89 +371,88 @@
           </li>
         </ul>
         <div class="text-light mt-5">
-          <span class="border p-4 mt-5">Semi Truck</span>
+          <span class="border border-2 p-4 mt-5 px-5 py-3">Semi Truck</span>
         </div>
       </div>
     </div>
   </div>
 
   <div class="container-fluid" style="background-color: rgb(49, 44, 44)">
-    <div class="row justify-content-center">
+    <div class="row">
       <h3 class="text-center mt-3">Beginning is Simple</h3>
-      <div class="col-sm-6 mt-5 mb-5">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-4 mt-5 mb-5">
         <h4 class="mt-5 text-center">Sign Agreement</h4>
         <h6 class=" mt-2 text-center">
           Sign a quick service agreement
         </h6>
       </div>
-      <div class="col-sm-6 mt-5 mb-5">
+      <div class="col-sm-4 mt-5 mb-5">
         <h4 class=" mt-5 text-center">Send your Documents</h4>
         <h6 class=" mt-2 text-center">MC Authority, W9, COI, NOA</h6>
       </div>
+      <div class="col-sm-2"></div>
+
     </div>
   </div>
 
-  <div class="container-fluid mt-5 mb-5" style="background-color: #05060A;">
-    <div class="row">
-      <div class="container">
+  <div class="container-fluid" style="background-color: #05060A;">
+    <div class="row justify-content-center">
+      <div class="col-sm-9">
+        <h3 class="mt-4">Contact Us</h3>
         <div class="row">
-          <div class="col-sm-1"></div>
-
-          <div class="col-sm-5">
+          <div class="col-sm-6">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="712b27b8-646b-4604-9c1b-bc9e71d546b8">
             <div class="row contact_us">
-              <h2 class="text-light ml-5">Contact Us</h2>
-              <div class="col-sm-6">
-                <form action="https://api.web3forms.com/submit" method="POST">
-                  <input type="hidden" name="access_key" value="712b27b8-646b-4604-9c1b-bc9e71d546b8">
-
-                  <label for="" class=" text-light">First Name</label>
-                  <input type="text" name="first_name" class="form-control">
+              <div class="col-sm-6 mt-4">
+                <label for="">First Name</label>
+                <input type="text" class="form-control" name="first_name" id="" required>
               </div>
-              <div class="col-sm-6">
-                <label for="" class="form-lable text-light">Last Name</label>
-                <input type="text" name="last_name" class="form-control">
+              <div class="col-sm-6 mt-4">
+                <label for="">Last Name</label>
+                <input type="text" class="form-control" name="last_name" id="" required>
               </div>
-              <div class="col-sm-6">
-                <label for="" class="form-lable text-light">Email</label>
-                <input type="text" name="email" class="form-control">
+              <div class="col-sm-6 mt-4">
+                <label for="">Email</label>
+                <input type="email" class="form-control" name="email" id="" required>
+              </div> 
+              <div class="col-sm-6 mt-4">
+                <label for="">Phone Number</label>
+                <input type="text" class="form-control" name="phone_number" id="">
               </div>
-              <div class="col-sm-6">
-                <label for="" class="form-lable text-light">Phone Number</label>
-                <input type="text" name="phone_number" class="form-control">
+              <div class="col-sm-12 mt-4">
+                <label for="">Message</label>
+                <textarea name="message" class="form-control" id=""></textarea>
               </div>
-              <div class="col-sm-12">
-                <label for="" class="form-lable text-light">Message</label>
-                <textarea name="message" class="form-control"></textarea>
+              <div><button type="submit" class="btn px-5 py-3 mt-4 mb-4 btn-light">Submit</button>
               </div>
-              <div class="mt-3 mb-2"> <button class="btn btn-light p-3 border rounded-5">Submit
-                  </button></div>
-            </div>
             </form>
-
+            </div>
           </div>
-          <div class="col-sm-5">
-            <img height="400px" width="350px" class="d-block mx-auto" src="assets/img/image/b5.jpg" alt="">
+          <div class="col-sm-6 mb-5">
+            <img height="100%" width="50%" class="d-block mx-auto" src="assets/img/image/b5.jpg" alt="">
           </div>
-          <div class="col-sm-1"></div>
         </div>
       </div>
     </div>
   </div>
+  
+    
   <div class="footer-area">
     <div class="container">
       <div class="row">
 
-        <div class="col-lg-4 col-md-6">
-
+        <div class="col-lg-4 col-md-6 mt-2">
+          <img height="90px " width="200px" src="assets/img/Image/logo.png" alt="">
           <div class="footer-box about-widget">
-            <h2 class="widget-title">Get in Touch</h2>
             <p>Optimizing trucking logistics for</p>
             <p>smooth deliveries.</p>
             <p>Apex Truckers - Your Reliable Truck</p>
             <p>Dispatch Partner</p>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 mt-5">
           <div class="footer-box get-in-touch">
             <h2 class="widget-title">Quick Links</h2>
             <ul>
@@ -485,7 +465,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 mt-5">
           <div class="footer-box pages">
             <h2 class="widget-title">Address</h2>
             <p>201 S. Grand Ave., 1st FloorNew York City, NY 28020</p>
