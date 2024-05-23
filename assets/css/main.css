@@ -147,8 +147,8 @@ h6, .h6 {
 }
 .apply_now{
   margin-top: 07px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-top: 2px;
   text-align: center;
   border: 2px solid #e8e4e1;
@@ -595,6 +595,7 @@ nav.main-menu ul li a {
   color: #fff;
   display: block;
   padding: 15px;
+  font-weight: 500;
 }
 
 nav.main-menu ul > li {
