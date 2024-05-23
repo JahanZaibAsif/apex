@@ -157,10 +157,13 @@ h6, .h6 {
 
 .apply_now:hover{
   background-color: #ffff;
-  color:#0c0c0c;
+  color:#000000;
 }
 .apply_now a:hover{
   color:#151414;
+}
+nav.main-menu .apply_now:hover a{
+  color: #000000;
 }
 
 .become p{
